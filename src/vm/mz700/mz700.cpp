@@ -759,7 +759,7 @@ uint32_t VM::load_mzt_into_memory(const _TCHAR* file_path)
 
 	unsigned char *buffer = (unsigned char*)malloc(data_size);
 
-	size_t count =  fio->Fread(buffer, data_size, 1);
+	size_t count = fio->Fread(buffer, data_size, 1);
 	fio->Fclose();
 
 	if (count != 1) {
