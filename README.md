@@ -181,3 +181,32 @@ uint32_t VM::load_mzt_into_memory(const _TCHAR* file_path)
 ## 謝辞
 
 高性能、高機能なエミュレータ群を開発・公開されている武田氏に深く感謝します。
+
+## おまけ：mz700.exe の キー対応表
+
+[mz700-key.txt](mz700-key.txt)
+
+MZ-700 のキーとホストのキーボードのキーとの対応を確認した結果です。
+
+| 項目名  | 内容                                                 |
+| --      | --                                                   |
+| strobe  | $E000 に出力するストローブ値                         |
+| bit     | $E001 から入力した値のビット位置                     |
+| MZ-700  | MZ-700 のキー名称（後述のMZ-700/1500 I/Oマップより） |
+| Windows | Windows キーボードのキー名称                         |
+| desc    | Microsoft サイトの VK 定義                           |
+
+
+__注意__  
+
+- (unbound) はエミュレータでホストのキーを割り当てていないことを表します。
+- キーボードレイアウトが「日本語キーボード（106/109キー）」で確認しています。これ以外のレイアウトでは未確認です。
+- レジストリで割り当てを変更している場合、異なる挙動を示すことがあるようです。（Ctrl と Caps Lock を入れ替えている場合等）
+
+確認に際し次の情報を参照しました。
+
+- mz700.exe のキーマップ - エミュレータソース src/vm/mz700/keyboard.cpp
+- MZ-700 のキー配列 - [MZ-700/1500 I/Oマップ](http://www.maroon.dti.ne.jp/youkan/mz700/mzioframe.html)
+- Windows の仮想キー定義 - [Virtual-Key コード](https://learn.microsoft.com/ja-jp/windows/win32/inputdev/virtual-key-codes)
+
+

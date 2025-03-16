@@ -1,0 +1,90 @@
+strobe bit  MZ-700  Windows      desc https://learn.microsoft.com/ja-jp/windows/win32/inputdev/virtual-key-codes
+  0     d7   カナ   Page Down    VK_NEXT Page Down キー
+  0     d6   GRAPH  Page Up      VK_PRIOR ページアップ キー
+  0     d5   =      F9           VK_F9 F9 キー
+  0     d4   英数   Tab          VK_TAB Tab キー
+  0     d3          (unbound)
+  0     d2   ;      ;            VK_OEM_PLUS 任意の国/地域の場合、+ キー
+  0     d1   :      :            VK_OEM_1 その他の文字に使用されます。キーボードによって異なる場合があります。 米国標準キーボードの場合、;: キー
+  0     d0   CR     Enter        VK_RETURN Enter キー
+
+  1     d7   Y      Y            `Y` Y キー
+  1     d6   Z      Z            `Z` Z キー
+  1     d5   @      @            VK_OEM_3 その他の文字に使用されます。キーボードによって異なる場合があります。 米国標準キーボードの場合、`~ キー
+  1     d4   (      [            VK_OEM_4 その他の文字に使用されます。キーボードによって異なる場合があります。 米国標準キーボードの場合、[{ キー
+  1     d3   )      ]            VK_OEM_6 その他の文字に使用されます。キーボードによって異なる場合があります。 米国標準キーボードの場合、]} キー
+  1     d2          (unbound)
+  1     d1          (unbound)
+  1     d0          (unbound)
+
+  2     d7   Q      Q            `Q` Q キー
+  2     d6   R      R            `R` R キー
+  2     d5   S      S            `S` S キー
+  2     d4   T      T            `T` T キー
+  2     d3   U      U            `U` U キー
+  2     d2   V      V            `V` V キー
+  2     d1   W      W            `W` W キー
+  2     d0   X      X            `X` X キー
+
+  3     d7   I      I            `I` I キー
+  3     d6   J      J            `J` J キー
+  3     d5   K      K            `K` K キー
+  3     d4   L      L            `L` L キー
+  3     d3   M      M            `M` M キー
+  3     d2   N      N            `N` N キー
+  3     d1   O      O            `O` O キー
+  3     d0   P      P            `P` P キー
+
+  4     d7   A      A            `A` キー
+  4     d6   B      B            `B` B キー
+  4     d5   C      C            `C` C キー
+  4     d4   D      D            `D` D キー
+  4     d3   E      E            `E` E キー
+  4     d2   F      F            `F` F キー
+  4     d1   G      G            `G` G キー
+  4     d0   H      H            `H` H キー
+
+  5     d7   1      1            `1` 1 キー
+  5     d6   2      2            `2` 2 キー
+  5     d5   3      3            `3` 3 キー
+  5     d4   4      4            `4` 4 キー
+  5     d3   5      5            `5` 5 キー
+  5     d2   6      6            `6` 6 キー
+  5     d1   7      7            `7` 7 キー
+  5     d0   8      8            `8` 8 キー
+
+  6     d7   *      \(|の位置）  VK_OEM_5 その他の文字に使用されます。キーボードによって異なる場合があります。 米国標準キーボードの場合、\| キー
+  6     d6   +      ^            VK_OEM_7 その他の文字に使用されます。キーボードによって異なる場合があります。 米国標準キーボードの場合、'" キー
+  6     d5   -      -            VK_OEM_MINUS 任意の国/地域の場合、- キー
+  6     d4   SP     Space        VK_SPACE Space キー
+  6     d3   0      0            `0` 0 キー
+  6     d2   9      9            `9` 9 キー
+  6     d1   ,      ,            VK_OEM_COMMA 任意の国/地域の場合、, キー
+  6     d0   .      .            VK_OEM_PERIOD 任意の国/地域の場合、. キー
+
+  7     d7   INS    Insert       VK_INSERT キーの挿入
+  7     d6   DEL    Delete       VK_DELETE キーの削除
+  7     d5   ↑     ↑           VK_UP 上方向キー
+  7     d4   ↓     ↓           VK_DOWN 下方向キー
+  7     d3   →     →           VK_RIGHT 右方向キー
+  7     d2   ←     ←           VK_LEFT 左方向キー
+  7     d1   ?      \(ろの位置） VK_OEM_102 米国標準キーボードの <> キー、または米国以外の 102 キー キーボードの \| キー
+  7     d0   /      /            VK_OEM_2 その他の文字に使用されます。キーボードによって異なる場合があります。 米国標準キーボードの場合、/? キー
+
+  8     d7   BREAK  Backspace    VK_BACK Backspace キー
+  8     d6   CTRL   Ctrl         VK_CONTROL Ctrl キー
+  8     d5          (unbound)
+  8     d4          (unbound)
+  8     d3          (unbound)
+  8     d2          (unbound)
+  8     d1          (unbound)
+  8     d0   SHIFT  Shift        VK_SHIFT シフトキー
+
+  9     d7   F1     F1           VK_F1 F1 キー
+  9     d6   F2     F2           VK_F2 F2 キー
+  9     d5   F3     F3           VK_F3 F3 キー
+  9     d4   F4     F4           VK_F4 F4 キー
+  9     d3   F5     F5           VK_F5 F5 キー
+  9     d2          (unbound)
+  9     d1          (unbound)
+  9     d0          (unbound)

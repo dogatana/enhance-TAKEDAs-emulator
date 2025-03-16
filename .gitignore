@@ -11,3 +11,4 @@ venv/
 
 *.html
 *.txt
+!mz700-key.txt
