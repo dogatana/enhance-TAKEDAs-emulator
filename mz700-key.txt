@@ -35,7 +35,7 @@ strobe bit  MZ-700  Windows      desc https://learn.microsoft.com/ja-jp/windows/
   3     d1   O      O            `O` O キー
   3     d0   P      P            `P` P キー
 
-  4     d7   A      A            `A` キー
+  4     d7   A      A            `A` A キー
   4     d6   B      B            `B` B キー
   4     d5   C      C            `C` C キー
   4     d4   D      D            `D` D キー
@@ -62,7 +62,7 @@ strobe bit  MZ-700  Windows      desc https://learn.microsoft.com/ja-jp/windows/
   6     d1   ,      ,            VK_OEM_COMMA 任意の国/地域の場合、, キー
   6     d0   .      .            VK_OEM_PERIOD 任意の国/地域の場合、. キー
 
-  7     d7   INS    Insert       VK_INSERT キーの挿入
+  7     d7   INST   Insert       VK_INSERT キーの挿入
   7     d6   DEL    Delete       VK_DELETE キーの削除
   7     d5   ↑     ↑           VK_UP 上方向キー
   7     d4   ↓     ↓           VK_DOWN 下方向キー
