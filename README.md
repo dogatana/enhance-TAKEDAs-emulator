@@ -102,10 +102,18 @@ __【補足】__ x1turbo, x1turboz も vcxproj が異なるだけでソースは
 ## X1/MZ-700 以外のエミュレータへの適用
 
 - デバッグ機能拡張は機種共通部を修正しているため、自動的に反映されます
-- プログラムロード機能追加は、共通部（winmain.cpp, vm_template.h）の他に機種固有部の修正が必要となりますが、よそ次の手順で可能なはずです
+- プログラムロード機能追加は、共通部（winmain.cpp, vm_template.h）の他に機種固有部の修正が必要となりますが、おおよそ次の手順で可能なはずです
     - src\vm\機種\機種.h の VM class の定義に load_mzt_into_memory の定義を追加
     - src\vm\機種\機種.cpp に VM::load_mzt_into_memory の実装を追加
 - src\vm\x1\x1.h, src\vm\x1\x1.cpp を参考にしてもらえば良いでしょう
+- __【訂正】__：共通化は難しく、機種毎に実装対応が必要です。例えば PC-8001/PC8801 の場合、src\vm\pc8801.cpu で次の変更をすることで動作する模様です。
+
+
+```
+//memory->write_data8(addr++, *p++);
+pc88cpu->write_debug_data8(addr++, *p++);
+```
+
 
 __機種.h__
 ```cpp
@@ -124,6 +132,7 @@ class VM : public VM_TEMPLATE
 //	DEVICE* last_device;
 };
 ```
+
 
 __機種.cpp__
 
